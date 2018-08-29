@@ -1,12 +1,11 @@
-def display_board
-  separated_cells  = "   |   |   \n"
+def display_board(board)
+  #board = [" "," "," "," "," "," "," "," "," "]
+  puts (" #{board[0]} | #{board[1]} | #{board[2]} ")
   separated_col = "-----------\n"
-  puts separated_cells
-  puts separated_col
-  puts separated_cells
-  puts separated_col
-  puts separated_cells
+  puts (" #{board[3]} | #{board[4]} | #{board[5]} ")
+  separated_col = "-----------\n"
+  puts (" #{board[6]} | #{board[7]} | #{board[8]} ")
 end
-display_board
+
 # Define display_board that accepts a board and prints
 # out the current state.
